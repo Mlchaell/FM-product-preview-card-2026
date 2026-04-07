@@ -110,6 +110,11 @@ body {
         grid-template-columns: 50% 50%;
         max-width: 600px;
     }
+
+    .product__body {
+      display: grid;
+      place-content: center;
+    }
 }
 
 .product__body {
@@ -138,5 +143,4 @@ body {
     font-size: 2rem;
     font-weight: 700;
     color: var(--green-500);
-
 }
